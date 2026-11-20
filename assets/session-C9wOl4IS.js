@@ -1,0 +1,1 @@
+import{l as e}from"./VContainer-C_dxvJmp.js";async function t(){return(await e.get(`/sessions`)).data.data}async function n(t){return(await e.post(`/sessions`,t)).data.data.id}async function r(t){await e.delete(`/sessions/${t}`)}async function i(t){return(await e.get(`/sessions/${t}`)).data.data}export{t as i,r as n,i as r,n as t};
